@@ -1,3 +1,4 @@
+console.log("Can Share Files:", navigator.canShare && navigator.canShare({ files: [jsonFile] }));
 
 const shareButton=document.querySelector("#share-button");
 shareButton.addEventListener("click", async()=>{
@@ -16,6 +17,7 @@ shareButton.addEventListener("click", async()=>{
  const jsonFile= new File([file],"data.json",{
     type:"application/json" });
 
+    console.log(jsonFile.size); // Make sure > 0
 
 if (navigator.canShare && navigator.canShare({ files: [jsonFile] })) {
     try {
