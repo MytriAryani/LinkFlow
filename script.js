@@ -14,10 +14,10 @@ shareButton.addEventListener("click", async()=>{
   
  const file = new Blob([jsonString],{type:"application/json"});
 
- const textFile= new File([file],"data.json",{
+ const textFile= new File([file],"data.txt",{
     type:"text/plain" });
 
-    console.log(textFile.size); // Make sure > 0
+    console.log(textFile.size); 
     console.log("Can Share Files:", navigator.canShare && navigator.canShare({ files: [textFile] }));
 
 if (navigator.canShare && navigator.canShare({ files: [textFile] })) {
