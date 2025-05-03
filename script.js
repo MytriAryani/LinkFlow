@@ -24,7 +24,7 @@ if (navigator.canShare && navigator.canShare({ files: [textFile] })) {
     try {
         await navigator.share({
         title: "User Data",
-        text: "Here is my user data JSON file.",
+        text: "Here is my user data text file.",
         files: [textFile]
         });
         status.textContent="File shared successfully!";
