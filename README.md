@@ -20,7 +20,8 @@ https://link-flow-gamma.vercel.app/
 ## Setup:
 **Clone the Repository:**
    git clone https://github.com/MytriAryani/LinkFlow.git  
-   cd LinkFlow
+   cd LinkFlow  
+   
 **Open index.html**
 
 ## Dependencies & Tools Used:
