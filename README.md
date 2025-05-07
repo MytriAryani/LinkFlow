@@ -1,5 +1,5 @@
 # LINK FLOW
-Link Flow is a simple web application that allows user to share data (name and mobile number) via Bluetooth file sharing. Useful for quick, offline data transfer.
+Link Flow is a simple web application that allows user to share data (name and mobile number) via Bluetooth file sharing. Useful for quick data transfer.
 
 ## Live Demo
 https://link-flow-gamma.vercel.app/
