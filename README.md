@@ -17,7 +17,8 @@ https://link-flow-gamma.vercel.app/
 - Creates a `.txt` file from user data and shares it via `navigator.share()`.
 - Displays success or error messages based on the share outcome.
 
-[![Watch the demo]](https://vimeo.com/1082064383/0e930fa4f2?share=copy)
+## Watch Demo
+[[Watch the demo]](https://vimeo.com/1082064383/0e930fa4f2?share=copy)
 
 
 ## Setup:
