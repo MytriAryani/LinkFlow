@@ -4,6 +4,9 @@ Link Flow is a simple web application that allows user to share data (name and m
 ## Live Demo
 https://link-flow-gamma.vercel.app/
 
+## Watch Demo
+[[Watch the demo]](https://vimeo.com/1082064383/0e930fa4f2?share=copy)
+
 ## How it works:
 1. The user enters their name and phone number in a form.
 2. On clicking the "Share" button:
@@ -17,8 +20,7 @@ https://link-flow-gamma.vercel.app/
 - Creates a `.txt` file from user data and shares it via `navigator.share()`.
 - Displays success or error messages based on the share outcome.
 
-## Watch Demo
-[[Watch the demo]](https://vimeo.com/1082064383/0e930fa4f2?share=copy)
+
 
 
 ## Setup:
