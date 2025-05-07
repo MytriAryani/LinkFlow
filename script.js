@@ -9,16 +9,18 @@ shareButton.addEventListener("click", async()=>{
     name,
     phone
  }
-
+ status.textContent = "";
+ if (!name || !phone) {
+    status.textContent = "Please fill out both fields.";
+    status.style.color = "red";
+    return; 
+}
  const jsonString=JSON.stringify(data,null,2);
-  
  const file = new Blob([jsonString],{type:"application/json"});
-
- const textFile= new File([file],"data.txt",{
-    type:"text/plain" });
-
-    console.log(textFile.size); 
-    console.log("Can Share Files:", navigator.canShare && navigator.canShare({ files: [textFile] }));
+ const textFile= new File([file],"data.txt",
+    {type:"text/plain" });
+console.log(textFile.size); 
+console.log("Can Share Files:", navigator.canShare && navigator.canShare({ files: [textFile] }));
 
 if (navigator.canShare && navigator.canShare({ files: [textFile] })) {
     try {
